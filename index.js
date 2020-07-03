@@ -40,7 +40,7 @@ class Formatter {
     for(let i = 0; i < data.length-1; i++){
       str += data[i]+' '
     }
-    return str;
+    return str+data[data.length-1];
   }
 }
 console.log(Formatter.titleize('dkhfdklhd dhsffh the'))
