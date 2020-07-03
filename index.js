@@ -3,7 +3,7 @@ class Formatter {
     return string[0].toUpperCase()+string.slice(1,string.length);
   }
   static sanitize(str){
-    return str.replace(/[^A-Za-z0-9- ']+/g, '')
+    return str.replace(/[^A-Za-z0-9-']+/g, '')
   }
   static titleize(str){
     let data = str.split(' ')
