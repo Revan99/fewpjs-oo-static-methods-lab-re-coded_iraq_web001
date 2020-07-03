@@ -37,7 +37,7 @@ class Formatter {
       }
     }
     str = ''
-    for(let i = 0; i < data.length; i++){
+    for(let i = 0; i < data.length-1; i++){
       str += data[i]+' '
     }
     return str;
