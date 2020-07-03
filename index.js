@@ -8,7 +8,7 @@ class Formatter {
   static titleize(str){
     let data = str.split(' ')
     data[0] = this.capitalize(data[0])
-    for(let i = 0; i < data.length-1; i++){
+    for(let i = 0; i < data.length; i++){
       switch(data[i]){
         case 'the':
           break;
